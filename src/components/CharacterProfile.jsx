@@ -1,7 +1,11 @@
+
 import './CharacterProfile.css'
 import profilePhoto from '../assets/profile-photo.jpg'
 import { useState } from 'react'
-function CharacterProfile() {npm.cmd run build
+
+function CharacterProfile() {
+  const [photoOpen, setPhotoOpen] = useState(false)
+
   const skills = [
     'Java',
     'C++',
@@ -27,46 +31,46 @@ function CharacterProfile() {npm.cmd run build
       <div className="character-layout">
 
         <div className="character-identity">
-          <div className="profile-avatar">
-  <button
-  className="profile-avatar"
-  onClick={() => setPhotoOpen(true)}
-  aria-label="Enlarge profile photo"
->
-  <img
-    src={profilePhoto}
-    alt="Vimshathi Odnam"
-    className="profile-photo"
-  />
-  <span className="photo-hint">VIEW PHOTO ↗</span>
-</button>
 
-{photoOpen && (
-  <div
-    className="photo-modal"
-    onClick={() => setPhotoOpen(false)}
-  >
-    <button
-      className="photo-close"
-      onClick={() => setPhotoOpen(false)}
-      aria-label="Close enlarged photo"
-    >
-      ×
-    </button>
+          <button
+            className="profile-avatar"
+            onClick={() => setPhotoOpen(true)}
+            aria-label="Enlarge profile photo"
+          >
+            <img
+              src={profilePhoto}
+              alt="Vimshathi Odnam"
+              className="profile-photo"
+            />
+            <span className="photo-hint">VIEW PHOTO ↗</span>
+          </button>
 
-    <img
-      src={profilePhoto}
-      alt="Vimshathi Odnam enlarged"
-      className="enlarged-photo"
-      onClick={(e) => e.stopPropagation()}
-    />
+          {photoOpen && (
+            <div
+              className="photo-modal"
+              onClick={() => setPhotoOpen(false)}
+            >
+              <button
+                className="photo-close"
+                onClick={() => setPhotoOpen(false)}
+                aria-label="Close enlarged photo"
+              >
+                ×
+              </button>
 
-    <p>VIMSHATHI ODNAM</p>
-  </div>
-)}
-</div>
+              <img
+                src={profilePhoto}
+                alt="Vimshathi Odnam enlarged"
+                className="enlarged-photo"
+                onClick={(e) => e.stopPropagation()}
+              />
+
+              <p>VIMSHATHI ODNAM</p>
+            </div>
+          )}
 
           <h3>VIMSHATHI ODNAM</h3>
+
           <p className="profile-role">
             ASPIRING SOFTWARE DEVELOPER
           </p>
@@ -97,7 +101,6 @@ function CharacterProfile() {npm.cmd run build
 
           <div className="profile-block">
             <p className="eyebrow">PLAYER INTRODUCTION</p>
-
             <h3>THE JOURNEY BEGINS.</h3>
 
             <p>
@@ -143,13 +146,15 @@ function CharacterProfile() {npm.cmd run build
               >
                 GITHUB ↗
               </a>
-                            <a
+
+              <a
                 href="https://www.linkedin.com/in/vimshathi-odnam-0b0286386/"
                 target="_blank"
                 rel="noreferrer"
-                >
+              >
                 LINKEDIN ↗
-                </a>
+              </a>
+
               <a href="mailto:vimshathi20@gmail.com">
                 EMAIL ↗
               </a>
@@ -160,7 +165,6 @@ function CharacterProfile() {npm.cmd run build
       </div>
     </section>
   )
-  const [photoOpen, setPhotoOpen] = useState(false)
 }
 
 export default CharacterProfile
