@@ -44,7 +44,7 @@ It combines a creative visual experience with practical portfolio features, allo
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
+   git clone https://github.com/vimshathi20-lab/the-awakening.git
    ```
 
 2. Navigate into the project:
@@ -101,11 +101,14 @@ Interested in software development, problem-solving, cybersecurity and digital f
 
 ## 🌐 Deployment
 
-The project is intended to be deployed using Vercel.
+## 🌐 Live Demo
 
-Add the live deployment URL here after publishing:
+**Production Website:** https://the-awakening-ashy.vercel.app
 
-**Live Demo:** YOUR_VERCEL_DEPLOYMENT_URL
+**GitHub Repository:** https://github.com/vimshathi20-lab/the-awakening
+
+Deployed using Vercel. New commits pushed to the main branch can trigger automatic deployments.
+
 
 ## 📌 Project Status
 
