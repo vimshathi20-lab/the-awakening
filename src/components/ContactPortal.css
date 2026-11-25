@@ -1,0 +1,143 @@
+
+.contact-portal {
+  padding: 110px 8%;
+  background: #080d19;
+  color: #f4f7ff;
+  text-align: center;
+}
+
+.contact-eyebrow {
+  color: #65dfff;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.contact-portal h2 {
+  font-size: clamp(38px, 6vw, 65px);
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+
+.contact-portal h2 span {
+  color: #65dfff;
+}
+
+.contact-description {
+  max-width: 550px;
+  margin: 0 auto 40px;
+  color: #9ba8bd;
+  line-height: 1.8;
+}
+
+.contact-card {
+  max-width: 650px;
+  margin: auto;
+  padding: 40px 25px;
+  border: 1px solid #263c59;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #121e32, #0b1220);
+  box-shadow: 0 0 35px #65dfff0b;
+}
+
+.contact-status {
+  color: #65dfff;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.contact-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: #65dfff;
+  box-shadow: 0 0 10px #65dfff;
+}
+
+.contact-card h3 {
+  font-size: 25px;
+  margin: 30px 0 18px;
+}
+
+.contact-email {
+  color: #65dfff;
+  text-decoration: none;
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.contact-links a {
+  padding: 12px 18px;
+  border: 1px solid #33435c;
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 0.25s;
+}
+
+.contact-links a:hover {
+  border-color: #65dfff;
+  color: #65dfff;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 7px;
+  background: #65dfff;
+  color: #080d19;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 0.25s;
+}
+
+.cv-button:hover {
+  background: white;
+  transform: translateY(-3px);
+}
+
+.contact-footer {
+  margin-top: 35px;
+  color: #64748b;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 600px) {
+  .contact-portal {
+    padding: 75px 6%;
+  }
+
+  .contact-card {
+    padding: 30px 18px;
+  }
+}
+.profile-avatar {
+  width: 220px;
+  height: 260px;
+  border: 2px solid #65dfff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 25px #65dfff30;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}

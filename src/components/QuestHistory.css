@@ -1,0 +1,123 @@
+
+.quest-history {
+  padding: 100px 8%;
+  background: #080d19;
+  color: #f4f7ff;
+}
+
+.quest-eyebrow {
+  color: #65dfff;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+.quest-history h2 {
+  font-size: clamp(36px, 6vw, 58px);
+  margin: 12px 0;
+  letter-spacing: 2px;
+}
+
+.quest-history h2 span {
+  color: #65dfff;
+}
+
+.quest-intro {
+  color: #9ba8bd;
+  margin-bottom: 55px;
+  line-height: 1.7;
+}
+
+.quest-list {
+  max-width: 850px;
+  margin: auto;
+}
+
+.quest-item {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  padding-bottom: 42px;
+}
+
+.quest-item:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 21px;
+  top: 48px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(#65dfff, #7b61ff);
+  opacity: 0.45;
+}
+
+.quest-marker {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #65dfff;
+  border-radius: 50%;
+  color: #65dfff;
+  background: #101a2b;
+  font-size: 13px;
+  z-index: 1;
+}
+
+.quest-content {
+  flex: 1;
+  padding: 25px;
+  border: 1px solid #26334b;
+  border-radius: 14px;
+  background: #101a2b;
+  transition: 0.3s ease;
+}
+
+.quest-content:hover {
+  border-color: #65dfff;
+  transform: translateX(5px);
+  box-shadow: 0 0 22px #65dfff15;
+}
+
+.quest-type {
+  color: #65dfff;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.quest-content h3 {
+  font-size: 22px;
+  margin: 13px 0 7px;
+}
+
+.quest-content h4 {
+  color: #b69aff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.quest-content p {
+  color: #aebbd0;
+  line-height: 1.7;
+  margin: 15px 0;
+}
+
+.quest-year {
+  color: #65dfff;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .quest-history {
+    padding: 70px 6%;
+  }
+
+  .quest-item {
+    gap: 14px;
+  }
+
+  .quest-content {
+    padding: 18px;
+  }
+}
