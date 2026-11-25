@@ -1,8 +1,7 @@
 import './CharacterProfile.css'
 import profilePhoto from '../assets/profile-photo.jpg'
 import { useState } from 'react'
-
-function CharacterProfile() {
+function CharacterProfile() {npm.cmd run build
   const skills = [
     'Java',
     'C++',
