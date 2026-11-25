@@ -1,16 +1,120 @@
-# React + Vite
+# THE AWAKENING ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> An anime-inspired, RPG-style developer portfolio built to showcase my skills, projects, learning journey and professional profile.
 
-Currently, two official plugins are available:
+## 🌌 About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+THE AWAKENING is my personal developer portfolio, designed around a futuristic game-inspired interface.
 
-## React Compiler
+It combines a creative visual experience with practical portfolio features, allowing visitors and recruiters to explore my background, technical skills, projects and contact information.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Hero Section** – Introduction and portfolio navigation.
+- **Character Profile** – Education, profile information and personal introduction.
+- **Interactive Skill Tree** – Presentation of technical skills.
+- **Project Vault** – Showcase of development projects.
+- **Quest History** – Learning and project journey.
+- **Contact Portal** – Email, GitHub and LinkedIn links.
+- **CV Download** – Access to my resume in PDF format.
+- **Responsive Layout** – Designed to adapt to different screen sizes.
+- **Photo Preview** – Click the profile photo to view an enlarged version.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Git and GitHub
+- Vercel for deployment
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+- Git
+- Visual Studio Code (recommended)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Navigate into the project:
+
+   ```bash
+   cd the-awakening
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 📁 Project Structure
+
+```text
+the-awakening/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## 👩‍💻 About the Developer
+
+**Vimshathi Odnam**
+
+Computer Science and Engineering Student  
+ACE Engineering College | Hyderabad, India
+
+Interested in software development, problem-solving, cybersecurity and digital forensics.
+
+## 🔗 Connect
+
+- GitHub: https://github.com/vimshathi20-lab
+- LinkedIn: https://www.linkedin.com/in/vimshathi-odnam-0b0286386/
+- Email: vimshathi20@gmail.com
+
+## 🌐 Deployment
+
+The project is intended to be deployed using Vercel.
+
+Add the live deployment URL here after publishing:
+
+**Live Demo:** YOUR_VERCEL_DEPLOYMENT_URL
+
+## 📌 Project Status
+
+Developed as a personal portfolio project. Features and design may evolve as I continue learning and building.
+
+---
+
+Made with curiosity, code and a little inspiration from the world of RPGs. ⚡
+  
+  
+  
+ 
