@@ -1,7 +1,7 @@
 import './CharacterProfile.css'
 import profilePhoto from '../assets/profile-photo.jpg'
 import { useState } from 'react'
-import profilePhoto from '../assets/profile-photo.jpg'
+
 function CharacterProfile() {
   const skills = [
     'Java',
